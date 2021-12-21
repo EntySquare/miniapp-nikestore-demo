@@ -1,26 +1,27 @@
 <template>
-  <div :style="style.home">
-    <div :style="style.router">router is {{$route.path}}</div>
+  <div>
+<!--  <div :style="style.home">-->
+<!--    <div :style="style.router">router is {{$route.path}}</div>-->
     <div>
-      <router-view />
+      <router-view/>
     </div>
-    <div style="  display: block;position: fixed;bottom: 0;width: 100%;height: 70px;color: #474747;padding-top: 10px;border-top: 1px solid #eee;background-color: #fff;">
-      <div style="width: 25%;float: left;cursor: pointer; text-align: center" class=" text-center" data-src="">
+    <div :style="style.navigation" style="position: fixed;bottom: 0;width: 100%;height: 70px;color: #474747;padding-top: 10px;border-top: 1px solid #eee;background-color: #fff;">
+      <div style="width: 25%;float: left;cursor: pointer; text-align: center">
         <div :style="style.button" @click="goToVue">
           首页
         </div>
       </div>
-      <div style="width: 25%;float: left;cursor: pointer; text-align: center" class=" text-center">
+      <div style="width: 25%;float: left;cursor: pointer; text-align: center" >
         <div :style="style.button" @click="goToKraken">
           直播
         </div>
       </div>
-      <div style="width: 25%;float: left;cursor: pointer; text-align: center" class=" text-center" >
+      <div style="width: 25%;float: left;cursor: pointer; text-align: center" >
         <div :style="style.button" @click="goToKraken">
           购物车
         </div>
       </div>
-      <div style="width: 25%;float: left;cursor: pointer; text-align: center" class=" text-center" >
+      <div style="width: 25%;float: left;cursor: pointer; text-align: center"  >
         <div :style="style.button" @click="goToKraken">
           我的
         </div>
@@ -62,6 +63,11 @@ const style = {
   changeRouter: {
     display: 'flex',
     marginTop: '20px',
+  },
+  navigation:{
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+    display: 'flex',
   }
 }
 

@@ -20,7 +20,7 @@
         </div>
       </div>
       <div style="width: 25%;float: left;cursor: pointer; text-align: center"  >
-        <div :style="style.button" @click="this.$router.replace('my')">
+        <div :style="style.button" @click="this.$router.replace('shoes')">
           我的
         </div>
       </div>

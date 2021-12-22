@@ -9,12 +9,13 @@ import index from './views/index';
 import broadcast from './views/broadcast';
 import my from './views/my';
 import shopping from './views/shopping';
-// import KrakenComponent from './views';
+import shoes from './views/shoes';
 const routes = [
     {path: '/', component: index},
     {path: '/broadcast', component: broadcast},
     {path: '/my', component: my},
     {path: '/shopping', component: shopping},
+    {path: '/shoes', component: shoes},
 ]
 
 let history = VueRouter.createWebHashHistory();

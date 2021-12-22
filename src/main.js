@@ -1,21 +1,26 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
 // import elementUI from 'element-ui';
 // import 'element-ui/lib/theme-chalk/index.css';
 
 //路由
 import * as VueRouter from 'vue-router'
-import VueComponent from './views/vue';
-import KrakenComponent from './views/kraken';
+import index from './views/index.vue';
+import broadcast from './views/broadcast.vue';
+import my from './views/my.vue';
+import shopping from './views/shopping.vue';
+// import KrakenComponent from './views';
 const routes = [
-  { path: '/vue', component: VueComponent },
-  { path: '/kraken', component: KrakenComponent },
+    {path: '/', component: index},
+    {path: '/broadcast', component: broadcast},
+    {path: '/my', component: my},
+    {path: '/shopping', component: shopping},
 ]
 
 let history = VueRouter.createWebHashHistory();
 const router = VueRouter.createRouter({
-  history,
-  routes,
+    history,
+    routes,
 })
 
 const app = createApp(App);

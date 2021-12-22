@@ -1,15 +1,11 @@
 <template>
   <div>
     shopping.vue
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
-    <img :style="style.img" alt="Kraken logo" src="//img.alicdn.com/imgextra/i1/O1CN01CUE2IL1FdAGnYPawX_!!6000000000509-2-tps-350-116.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
   </div>
 </template>
 

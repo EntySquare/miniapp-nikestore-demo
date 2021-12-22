@@ -5,10 +5,10 @@ import App from './App.vue'
 
 //路由
 import * as VueRouter from 'vue-router'
-import index from './views/index.vue';
-import broadcast from './views/broadcast.vue';
-import my from './views/my.vue';
-import shopping from './views/shopping.vue';
+import index from './views/index';
+import broadcast from './views/broadcast';
+import my from './views/my';
+import shopping from './views/shopping';
 // import KrakenComponent from './views';
 const routes = [
     {path: '/', component: index},

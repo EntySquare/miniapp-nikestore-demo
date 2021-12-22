@@ -1,15 +1,7 @@
 <template>
   <div>
     broadcast.vue
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
-    <img :style="style.img" alt="Vue logo" src="//img.alicdn.com/imgextra/i3/O1CN01HmN4l21lpai7j2p3H_!!6000000004868-2-tps-200-200.png">
+    <img :style="style.img" alt="Kraken logo" src="https://img.alicdn.com/imgextra/i4/O1CN01GIxaZ01V0isGFLuJQ_!!6000000002591-2-tps-400-339.png">
   </div>
 </template>
 

@@ -20,7 +20,7 @@
 
     <!--    <div style="background-image: url('https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/red_shoes.png');background-repeat: no-repeat;background-position: center 0;background-size: cover;height: 550px;max-width: 550px">-->
     <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative">
+      <div style="position: relative" @click="this.$router.replace('shoes');">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/red_shoes_v1.png"
              style="width: 100%;height: auto">
       </div>

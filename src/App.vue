@@ -21,7 +21,7 @@
              style="height: 32px;width: 32px">
         <div id="shopping_text" style="font-size: 10px;color: #BEBEBE">购物车</div>
       </div>
-      <div :style="style.button" @click="goToHtml('shoes')" style="text-align: center">
+      <div :style="style.button" @click="goToHtml('my')" style="text-align: center">
         <img id="my_img" src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/my_icon.png"
              style="height: 32px;width: 32px">
         <div id="my_text" style="font-size: 10px;color: #BEBEBE">我的</div>

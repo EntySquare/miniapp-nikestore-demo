@@ -19,59 +19,68 @@
     </div>
 
     <!--    <div style="background-image: url('https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/red_shoes.png');background-repeat: no-repeat;background-position: center 0;background-size: cover;height: 550px;max-width: 550px">-->
-    <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative" @click="this.$router.replace('shoes');">
+    <div style="padding: 20px 20px 0 20px; position: relative;">
+      <div style="position: relative;width: 100%" @click="this.$router.replace('shoes');">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/red_shoes_v1.png"
              style="width: 100%;height: auto">
-      </div>
-      <!--      <div style="height: 100px;margin-top: -100px;padding-left: 20px">-->
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Welcome X-S-Store</div>
-        <div style="height: 10px"></div>
-        <div style="font-style: normal;font-weight: bold;font-size: 14px;">X-S-Store</div>
+        <div style="position: absolute; z-index: 2; bottom: 0;left: 0; width: 100%">
+          <div style="margin: 0 24px 24px 24px">
+            <div style="font-style: normal;font-weight: bold;font-size: 20px;">Welcome X-S-Store</div>
+            <div style="height: 8px"></div>
+            <div style="font-style: normal;font-weight: bold;font-size: 14px;">X-S-Store</div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative">
+      <div style="position: relative; width: 100%">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/white_shoes_v1.png"
              style="width: 100%;height: auto">
-      </div>
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Adapt BB Unboxing - Futuristic Self
-          Lacing Sneakers
-        </div>
-        <div style="height: 10px"></div>
-        <div style="font-style: normal;font-weight: bold;font-size: 14px;">Unbox Therapy <span style="font-weight: 400">949K Views 3 min ago</span>
+        <div style="position: absolute; z-index: 2; bottom: 0;left: 0; width: 100%;">
+          <div style="margin: 0 24px 24px 24px">
+            <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Adapt BB Unboxing - Futuristic Self
+              Lacing Sneakers
+            </div>
+            <div style="height: 8px"></div>
+            <div style="font-style: normal;font-weight: bold;font-size: 14px;">Unbox Therapy <span
+                style="font-weight: 400">949K Views 3 min ago</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative">
+    <div style="padding: 20px 20px 0 20px; position: relative;">
+      <div style="position: relative; width: 100%">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/powder_shoes_v1.png"
              style="width: 100%;height: auto">
-      </div>
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Alphafly Next% Full & Final Review |
-          Carbon Fiber Plate Marathon Shoe
-        </div>
-        <div style="height: 10px"></div>
-        <div style="font-style: normal;font-weight: bold;font-size: 14px;">Unbox Therapy <span style="font-weight: 400">949K Views 3 min ago</span>
+        <div style="position: absolute; z-index: 2; bottom: 0;left: 0; width: 100%;">
+          <div style="margin: 0 24px 24px 24px">
+            <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Alphafly Next% Full & Final Review |
+              Carbon Fiber Plate Marathon Shoe
+            </div>
+            <div style="height: 8px"></div>
+            <div style="font-style: normal;font-weight: bold;font-size: 14px;">Unbox Therapy <span
+                style="font-weight: 400">949K Views 3 min ago</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative">
+      <div style="position: relative; width: 100%">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/red_aj_shoes_v1.png"
              style="width: 100%;height: auto">
-      </div>
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">About</div>
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Jordan 1 Mid Chicago Toe</div>
-        <div style="font-style: normal;font-weight: bold;font-size: 14px;">TheOffWhiteDealer <span
-            style="font-weight: 400">949K Views 3 min ago</span></div>
+        <div style="position: absolute; z-index: 2; bottom: 0;left: 0; width: 100%">
+          <div style="margin: 0 24px 24px 24px">
+            <div style="font-style: normal;font-weight: bold;font-size: 20px;">About</div>
+            <div style="font-style: normal;font-weight: bold;font-size: 20px;">Jordan 1 Mid Chicago Toe</div>
+            <div style="font-style: normal;font-weight: bold;font-size: 14px;">TheOffWhiteDealer <span
+                style="font-weight: 400">949K Views 3 min ago</span></div>
+          </div>
+        </div>
       </div>
     </div>
     <div style="height: 100px"></div>

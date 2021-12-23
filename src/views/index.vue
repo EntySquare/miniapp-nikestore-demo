@@ -37,8 +37,8 @@
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/white_shoes_v1.png"
              style="width: 100%;height: auto">
       </div>
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Adapt BB Unboxing - Futuristic Self
+      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px;">
+        <div style="font-style: normal;font-weight: bold;font-size: 20px; width: 100%">Nike Adapt BB Unboxing - Futuristic Self
           Lacing Sneakers
         </div>
         <div style="height: 10px"></div>
@@ -47,13 +47,13 @@
       </div>
     </div>
 
-    <div style="padding: 20px 20px 0 20px; position: relative">
+    <div style="padding: 20px 20px 0 20px; position: relative;">
       <div style="position: relative">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/powder_shoes_v1.png"
              style="width: 100%;height: auto">
       </div>
-      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px; width: 100%">
-        <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Alphafly Next% Full & Final Review |
+      <div style="position: absolute; z-index: 2; bottom: 0;left: 20px; padding:0 24px 24px 24px;">
+        <div style="font-style: normal;font-weight: bold;font-size: 20px; width: 100%">Nike Alphafly Next% Full & Final Review |
           Carbon Fiber Plate Marathon Shoe
         </div>
         <div style="height: 10px"></div>

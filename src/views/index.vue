@@ -33,12 +33,17 @@
       </div>
     </div>
 
-    <div style="padding: 20px 20px 0 20px; position: relative">
-      <div style="position: relative; width: 100%">
+    <div style="padding: 20px 20px 0 20px; position: relative;">
+      <div style="position: relative; width: 100%; height: 280px; border: 1px solid transparent; border-radius: 20px; overflow: hidden;">
         <img src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/white_shoes_v1.png"
              style="width: 100%;height: auto">
+<!--        <video-->
+<!--            src="https://miniapp-nikestore-demo.oss-cn-beijing.aliyuncs.com/mini_app_test.mp4"-->
+<!--            autoplay="autoplay"-->
+<!--            style="width: 110%;height: auto;"-->
+<!--        />-->
         <div style="position: absolute; z-index: 2; bottom: 0;left: 0; width: 100%;">
-          <div style="margin: 0 24px 24px 24px">
+          <div style="margin: 0 24px 24px 24px; color: purple">
             <div style="font-style: normal;font-weight: bold;font-size: 20px;">Nike Adapt BB Unboxing - Futuristic Self
               Lacing Sneakers
             </div>
